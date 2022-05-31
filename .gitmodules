@@ -5,3 +5,6 @@
 	path = Android Projects/Android-Water-Delivery
 	url = https://github.com/vald3nir/Android-Water-Delivery.git
 
+[submodule "Smart-Energy-Project"]
+	path = Smart-Energy-Project
+	url = https://github.com/vald3nir/Smart-Energy-Project.git
