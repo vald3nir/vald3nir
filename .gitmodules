@@ -8,3 +8,9 @@
 [submodule "Smart-Energy-Project"]
 	path = Smart-Energy-Project
 	url = https://github.com/vald3nir/Smart-Energy-Project.git
+[submodule "Vald3flix-Projects/Vald3flix-Core"]
+	path = Vald3flix-Projects/Vald3flix-Core
+	url = https://github.com/vald3nir/Vald3flix-Core.git
+[submodule "Vald3flix-Projects/Vald3flix-Movie-Streaming"]
+	path = Vald3flix-Projects/Vald3flix-Movie-Streaming
+	url = https://github.com/vald3nir/Vald3flix-Movie-Streaming.git
