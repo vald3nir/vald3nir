@@ -1,16 +1,20 @@
 [submodule "Android Projects/Android-BTG-Challenge"]
 	path = Android Projects/Android-BTG-Challenge
 	url = https://github.com/vald3nir/Android-BTG-Challenge.git
+	branch = main
 [submodule "Android Projects/Android-Water-Delivery"]
 	path = Android Projects/Android-Water-Delivery
 	url = https://github.com/vald3nir/Android-Water-Delivery.git
-
+	branch = main
 [submodule "Smart-Energy-Project"]
 	path = Smart-Energy-Project
 	url = https://github.com/vald3nir/Smart-Energy-Project.git
+	branch = main
 [submodule "Vald3flix-Projects/Vald3flix-Core"]
 	path = Vald3flix-Projects/Vald3flix-Core
 	url = https://github.com/vald3nir/Vald3flix-Core.git
+	branch = main
 [submodule "Vald3flix-Projects/Vald3flix-Movie-Streaming"]
 	path = Vald3flix-Projects/Vald3flix-Movie-Streaming
 	url = https://github.com/vald3nir/Vald3flix-Movie-Streaming.git
+	branch = main
