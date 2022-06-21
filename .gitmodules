@@ -1,7 +1,3 @@
-[submodule "Android Projects/Android-BTG-Challenge"]
-	path = Android Projects/Android-BTG-Challenge
-	url = https://github.com/vald3nir/Android-BTG-Challenge.git
-	branch = main
 [submodule "Android Projects/Android-Water-Delivery"]
 	path = Android Projects/Android-Water-Delivery
 	url = https://github.com/vald3nir/Android-Water-Delivery.git
