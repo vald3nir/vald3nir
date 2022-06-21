@@ -23,3 +23,6 @@
 [submodule "Android Projects/Android-UOL-Challenge"]
 	path = Android Projects/Android-UOL-Challenge
 	url = https://github.com/vald3nir/Android-UOL-Challenge.git
+[submodule "Android Projects/Android-Photozig-Challenge"]
+	path = Android Projects/Android-Photozig-Challenge
+	url = https://github.com/vald3nir/Android-Photozig-Challenge.git
