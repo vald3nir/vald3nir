@@ -20,3 +20,6 @@
 [submodule "Android Projects/My-Nanny-App"]
 	path = Android Projects/My-Nanny-App
 	url = https://github.com/vald3nir/My-Nanny-App.git
+[submodule "Android Projects/Android-UOL-Challenge"]
+	path = Android Projects/Android-UOL-Challenge
+	url = https://github.com/vald3nir/Android-UOL-Challenge.git
