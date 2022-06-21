@@ -26,3 +26,6 @@
 [submodule "Android Projects/Android-Photozig-Challenge"]
 	path = Android Projects/Android-Photozig-Challenge
 	url = https://github.com/vald3nir/Android-Photozig-Challenge.git
+[submodule "Android Projects/Android-Smartphone-Location"]
+	path = Android Projects/Android-Smartphone-Location
+	url = https://github.com/vald3nir/Android-Smartphone-Location.git
