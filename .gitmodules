@@ -14,3 +14,6 @@
 	path = Vald3flix-Projects/Vald3flix-Movie-Streaming
 	url = https://github.com/vald3nir/Vald3flix-Movie-Streaming.git
 	branch = main
+[submodule "Android Projects/Android-BTG-Challenge"]
+	path = Android Projects/Android-BTG-Challenge
+	url = https://github.com/vald3nir/Android-BTG-Challenge.git
