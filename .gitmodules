@@ -29,3 +29,6 @@
 [submodule "Android Projects/Android-Smartphone-Location"]
 	path = Android Projects/Android-Smartphone-Location
 	url = https://github.com/vald3nir/Android-Smartphone-Location.git
+[submodule ".\\Arduino-Projects\\Arduino-Smart-Lamp\\"]
+	path = .\\Arduino-Projects\\Arduino-Smart-Lamp\\
+	url = https://github.com/vald3nir/Arduino-Smart-Lamp.git
