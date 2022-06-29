@@ -1,0 +1,3 @@
+rootProject.name='Android-SNMP'
+include ':agent-snmp'
+include ':manager-snmp'
