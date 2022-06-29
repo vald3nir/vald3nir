@@ -32,3 +32,6 @@
 [submodule "Arduino-Projects/Arduino-Smart-Lamp"]
 	path = Arduino-Projects/Arduino-Smart-Lamp
 	url = https://github.com/vald3nir/Arduino-Smart-Lamp.git
+[submodule "Arduino"]
+	path = Arduino
+	url = https://github.com/vald3nir/Arduino-Projects.git
