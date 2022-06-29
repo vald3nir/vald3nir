@@ -35,3 +35,6 @@
 [submodule "Arduino"]
 	path = Arduino
 	url = https://github.com/vald3nir/Arduino-Projects.git
+[submodule "Android"]
+	path = Android
+	url = https://github.com/vald3nir/Android-Projects.git
