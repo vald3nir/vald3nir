@@ -19,3 +19,6 @@
 [submodule "C"]
 	path = C
 	url = https://github.com/vald3nir/C-CPP-Projects.git
+[submodule "Python"]
+	path = Python
+	url = https://github.com/vald3nir/Python-Projects.git
