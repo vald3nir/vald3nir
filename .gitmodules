@@ -16,6 +16,6 @@
 [submodule "Android"]
 	path = Android
 	url = https://github.com/vald3nir/Android-Projects.git
-[submodule "C-CPP-Projects"]
-	path = C-CPP-Projects
+[submodule "C"]
+	path = C
 	url = https://github.com/vald3nir/C-CPP-Projects.git
