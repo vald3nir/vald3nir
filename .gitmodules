@@ -22,3 +22,6 @@
 [submodule "Python"]
 	path = Python
 	url = https://github.com/vald3nir/Python-Projects.git
+[submodule "Flutter"]
+	path = Flutter
+	url = https://github.com/vald3nir/Flutter-Project.git
