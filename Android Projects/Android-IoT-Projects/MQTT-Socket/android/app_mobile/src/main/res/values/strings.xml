@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MQTT x Socket </string>
+    <string name="object">Object</string>
+    <string name="status">Status</string>
+    <string name="light">Light</string>
+    <string name="tv">TV</string>
+    <string name="pc">PC</string>
+    <string name="alarm">Alarm</string>
+    <string name="air">Air</string>
+    <string name="protocol">Protocol</string>
+    <string name="socket">Socket</string>
+    <string name="mqtt">MQTT</string>
+    <string name="off">off</string>
+    <string name="on">on</string>
+    <string name="clean">Clean</string>
+</resources>

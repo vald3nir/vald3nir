@@ -1,0 +1,141 @@
+[
+    {
+        "id": "4de5c3e.975f43c",
+        "type": "tab",
+        "label": "Broker MQTT - LEDs",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "50db6896.9665b8",
+        "type": "mqtt out",
+        "z": "4de5c3e.975f43c",
+        "name": "",
+        "topic": "LER/LED/VERDE",
+        "qos": "0",
+        "retain": "false",
+        "broker": "1ef6992c.01e1d7",
+        "x": 630,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4e225800.d0fb18",
+        "type": "mqtt out",
+        "z": "4de5c3e.975f43c",
+        "name": "",
+        "topic": "LER/LED/AMARELO",
+        "qos": "0",
+        "retain": "false",
+        "broker": "1ef6992c.01e1d7",
+        "x": 620,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "282a246e.7e0cfc",
+        "type": "mqtt in",
+        "z": "4de5c3e.975f43c",
+        "name": "",
+        "topic": "ESCREVER/LED/VERDE",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "1ef6992c.01e1d7",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "50db6896.9665b8"
+            ]
+        ]
+    },
+    {
+        "id": "763c4620.f1d638",
+        "type": "mqtt in",
+        "z": "4de5c3e.975f43c",
+        "name": "",
+        "topic": "ESCREVER/LED/AMARELO",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "1ef6992c.01e1d7",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "4e225800.d0fb18"
+            ]
+        ]
+    },
+    {
+        "id": "970a8192.a28f1",
+        "type": "mqtt out",
+        "z": "4de5c3e.975f43c",
+        "name": "",
+        "topic": "LER/SENSOR/DISTANCIA",
+        "qos": "0",
+        "retain": "false",
+        "broker": "1ef6992c.01e1d7",
+        "x": 640,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "2235e186.e4772e",
+        "type": "mqtt in",
+        "z": "4de5c3e.975f43c",
+        "name": "",
+        "topic": "ESCREVER/SENSOR/DISTANCIA",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "1ef6992c.01e1d7",
+        "x": 200,
+        "y": 320,
+        "wires": [
+            [
+                "970a8192.a28f1"
+            ]
+        ]
+    },
+    {
+        "id": "a8e17c3c.13abf",
+        "type": "comment",
+        "z": "4de5c3e.975f43c",
+        "name": "Android -> Raspberry ",
+        "info": "",
+        "x": 420,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "9376d833.b08ab8",
+        "type": "comment",
+        "z": "4de5c3e.975f43c",
+        "name": "Raspberry -> Android",
+        "info": "",
+        "x": 420,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1ef6992c.01e1d7",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "LOCAL",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]

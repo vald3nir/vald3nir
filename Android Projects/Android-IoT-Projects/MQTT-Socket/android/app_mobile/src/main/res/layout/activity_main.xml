@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3CC0C4C0"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/label_bold"
+            android:text="@string/protocol" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checkedButton="@id/socket_radioButton"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/socket_radioButton"
+                style="@style/label_default"
+                android:text="@string/socket" />
+
+            <RadioButton
+                android:id="@+id/mqtt_radioButton"
+                style="@style/label_default"
+                android:text="@string/mqtt" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <TextView
+            style="@style/label_bold"
+            android:text="@string/object" />
+
+        <TextView
+            style="@style/label_bold"
+            android:text="@string/status" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/label_default"
+            android:text="@string/light" />
+
+        <RelativeLayout style="@style/layout_switch">
+
+            <Switch
+                android:id="@+id/light_switch"
+                style="@style/switch_default" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/label_default"
+            android:text="@string/air" />
+
+        <RelativeLayout style="@style/layout_switch">
+
+            <Switch
+                android:id="@+id/air_switch"
+                style="@style/switch_default" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/label_default"
+            android:text="@string/pc" />
+
+        <RelativeLayout style="@style/layout_switch">
+
+            <Switch
+                android:id="@+id/pc_switch"
+                style="@style/switch_default" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/label_default"
+            android:text="@string/tv" />
+
+        <RelativeLayout style="@style/layout_switch">
+
+            <Switch
+                android:id="@+id/tv_switch"
+                style="@style/switch_default" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/label_default"
+            android:text="@string/alarm" />
+
+        <RelativeLayout style="@style/layout_switch">
+
+            <Switch
+                android:id="@+id/alarm_switch"
+                style="@style/switch_default" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#4CAF50"
+        android:text="@string/clean"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txt_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="start"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>
