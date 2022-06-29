@@ -1,7 +1,3 @@
-[submodule "Android Projects/Android-Water-Delivery"]
-	path = Android Projects/Android-Water-Delivery
-	url = https://github.com/vald3nir/Android-Water-Delivery.git
-	branch = main
 [submodule "Smart-Energy-Project"]
 	path = Smart-Energy-Project
 	url = https://github.com/vald3nir/Smart-Energy-Project.git
@@ -14,24 +10,6 @@
 	path = Vald3flix-Projects/Vald3flix-Movie-Streaming
 	url = https://github.com/vald3nir/Vald3flix-Movie-Streaming.git
 	branch = main
-[submodule "Android Projects/Android-BTG-Challenge"]
-	path = Android Projects/Android-BTG-Challenge
-	url = https://github.com/vald3nir/Android-BTG-Challenge.git
-[submodule "Android Projects/My-Nanny-App"]
-	path = Android Projects/My-Nanny-App
-	url = https://github.com/vald3nir/My-Nanny-App.git
-[submodule "Android Projects/Android-UOL-Challenge"]
-	path = Android Projects/Android-UOL-Challenge
-	url = https://github.com/vald3nir/Android-UOL-Challenge.git
-[submodule "Android Projects/Android-Photozig-Challenge"]
-	path = Android Projects/Android-Photozig-Challenge
-	url = https://github.com/vald3nir/Android-Photozig-Challenge.git
-[submodule "Android Projects/Android-Smartphone-Location"]
-	path = Android Projects/Android-Smartphone-Location
-	url = https://github.com/vald3nir/Android-Smartphone-Location.git
-[submodule "Arduino-Projects/Arduino-Smart-Lamp"]
-	path = Arduino-Projects/Arduino-Smart-Lamp
-	url = https://github.com/vald3nir/Arduino-Smart-Lamp.git
 [submodule "Arduino"]
 	path = Arduino
 	url = https://github.com/vald3nir/Arduino-Projects.git
