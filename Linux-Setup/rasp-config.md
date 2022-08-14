@@ -2,11 +2,9 @@
 
     sudo apt-get update && sudo apt-get upgrade && sudo apt-get install apt-transport-https build-essential git curl fish -y
 
-## Enable Bluetooth
+## Casa OS
 
-    sudo systemctl status bluetooth.service
-    sudo systemctl enable bluetooth.service
-    sudo systemctl start bluetooth.service
+    curl -fsSL https://get.casaos.io | bash
 
 ## Node-red
 
@@ -39,7 +37,6 @@
     /dev/sda2: LABEL="TV" BLOCK_SIZE="512" UUID="307EC3967EC352F0" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="8e0d71b4-88f4-4af6-bfdb-522b2ec422db"  
 
     sudo mount /dev/sda2 /home/pi/vald3flix
-    sudo mount /dev/sda2 /media/vald3flix
     
     sudo nano /etc/fstab    
     PARTUUID=8e0d71b4-88f4-4af6-bfdb-522b2ec422db /dev/sda2 /home/pi/vald3flix ntfs defaults 0 0
@@ -48,7 +45,7 @@
 
 ### setup
 
-    sudo apt-get install samba samba-common-bin
+    sudo apt-get install samba samba-common-bin -y
     sudo nano /etc/samba/smb.conf
 
 ### smb.conf
@@ -70,4 +67,4 @@ public=yes
 ### enable users
 
     sudo smbpasswd -a pi
-    to open -> \\192.168.10.196\PI
+    to open -> \\192.168.10.199\PI
