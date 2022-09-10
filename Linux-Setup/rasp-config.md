@@ -11,6 +11,10 @@
     bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
     sudo systemctl enable nodered.service
 
+## MongoDB [Docker]
+
+    docker run --network rede-server -it --name mongodb mongo:4.4.6
+
 ## openmediavault
 
     sudo apt-get update -y && sudo apt-get upgrade -y
