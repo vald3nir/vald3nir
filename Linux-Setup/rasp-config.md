@@ -64,6 +64,7 @@
 [global]
 workgroup = WORKGROUP
 wins support = yes
+usershare owner only = false 
 
 [PI]
 comment=PI Home
