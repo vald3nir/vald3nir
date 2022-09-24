@@ -11,9 +11,16 @@
     bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
     sudo systemctl enable nodered.service
 
-## MongoDB [Docker]
+## Jellyfin Server
 
-    docker run --network rede-server -it --name mongodb mongo:4.4.6
+    docker pull jellyfin/jellyfin:latest
+    mkdir -p /home/dev/Documentos/jellyfin/{config,cache}   
+    docker run --name jellyfin -p 8096:8096 -d -v /home/dev/Documentos/jellyfin/config:/config -v /home/dev/Documentos/jellyfin/cache:/cache -v /mnt/26C42B55C42B2711:/media jellyfin/jellyfin:latest
+
+## MongoDB
+
+    docker run --name mongodb -p 27017:27017 -d mongo:4.4.6
+    docker run --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=balta -e MONGO_INITDB_ROOT_PASSWORD=e296cd9f -d mongo:latest
 
 ## openmediavault
 
