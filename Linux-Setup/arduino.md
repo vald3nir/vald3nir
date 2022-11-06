@@ -1,4 +1,4 @@
-# Setuo Node-red with Arduino
+# Setup Arduino Serial
 
 ## Setup Permission [Linux]
 

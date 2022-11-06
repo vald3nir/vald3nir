@@ -1,36 +1,22 @@
 #!/usr/bin/env bash
 
-# Removing occasional locks from apt
-sudo rm /var/lib/dpkg/lock-frontend
-sudo rm /var/cache/apt/archives/lock
-# Adding/Confirming 32-bit architecture
-sudo dpkg --add-architecture i386
-
 # Removing the software not used
-sudo apt purge firefox firefox-locale-* thunderbird celluloid hexchat hypnotix rhythmbox -y
+sudo snap remove firefox
 
-# Enable SNAP
-sudo rm /etc/apt/preferences.d/nosnap.pref
-sudo apt update -y
-sudo apt install snapd -y
+# Update repositories
+sudo apt update && sudo apt dist-upgrade -y
 
 # Installing Snap packages
-sudo snap install snap-store
-sudo snap install docker
-sudo snap install android-studio --classic
-sudo snap install flutter --classic
+# sudo snap install snap-store
+# sudo snap install docker
+# sudo snap install android-studio --classic
+# sudo snap install flutter --classic
 # sudo snap install pycharm-community --classic
 # sudo snap install postman
-# sudo snap install robo3t-snap
-# sudo snap install dotnet-sdk --classic --channel=5.0
-# sudo snap install eclipse --classic
-# sudo snap install intellij-idea-community --classic
-# sudo snap install spotify
-# sudo snap install slack --classic
-# sudo snap install skype --classic
 
 # Installing APT packages
 sudo apt install samba samba-common-bin -y
+sudo apt install net-tools -y
 sudo apt install git -y
 sudo apt install curl -y
 sudo apt install fish -y
@@ -45,7 +31,8 @@ sudo apt install sqlitebrowser -y
 # sudo apt install hollywood -y
 
 # Setup SSH
-sudo apt install openssh-server -y
+sudo apt-get install openssh-server -y
+sudo systemctl enable ssh --now
 sudo ufw allow ssh
 
 # Installing github-desktop
