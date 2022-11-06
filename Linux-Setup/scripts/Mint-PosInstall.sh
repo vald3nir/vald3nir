@@ -18,32 +18,27 @@ sudo apt update -y
 sudo apt install snapd -y
 
 # Installing Snap packages
-sudo snap install snap-store
-sudo snap install docker
-sudo snap install android-studio --classic
-sudo snap install flutter --classic
+# sudo snap install snap-store
+# sudo snap install docker
+# sudo snap install android-studio --classic
+# sudo snap install flutter --classic
 # sudo snap install pycharm-community --classic
 # sudo snap install postman
-# sudo snap install robo3t-snap
-# sudo snap install dotnet-sdk --classic --channel=5.0
-# sudo snap install eclipse --classic
 # sudo snap install intellij-idea-community --classic
-# sudo snap install spotify
-# sudo snap install slack --classic
-# sudo snap install skype --classic
 
 # Installing APT packages
-sudo apt install samba samba-common-bin -y
 sudo apt install net-tools -y
+sudo apt install samba samba-common-bin -y
 sudo apt install git -y
 sudo apt install curl -y
 sudo apt install fish -y
 sudo apt install build-essential -y
 sudo apt install python3-pip -y
-sudo apt install arduino -y
-sudo apt install vlc clementine -y
-sudo apt install gparted -y
-sudo apt install sqlitebrowser -y
+sudo apt install vlc -y
+# sudo apt install clementine -y
+# sudo apt install arduino -y
+# sudo apt install gparted -y
+# sudo apt install sqlitebrowser -y
 # sudo apt install gimp -y
 # sudo apt install filezilla -y
 # sudo apt install hollywood -y
