@@ -61,7 +61,6 @@ sudo apt install git -y
 sudo apt install curl -y
 sudo apt install fish -y
 sudo apt install build-essential -y
-sudo apt install python3-pip -y
 sudo apt install vlc -y
 # sudo apt install clementine -y
 # sudo apt install arduino -y
@@ -70,6 +69,11 @@ sudo apt install vlc -y
 # sudo apt install gimp -y
 # sudo apt install filezilla -y
 # sudo apt install hollywood -y
+
+# Install spotify-dl
+sudo apt install python3-pip -y
+sudo apt install ffmpeg -y
+sudo pip3 install spotify-dl
 
 # Download and install third-party software
 FOLDER_DOWNLOADS="$HOME/Downloads/programas"
