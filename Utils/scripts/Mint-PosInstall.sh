@@ -35,7 +35,9 @@ sudo apt-cache policy docker-ce
 sudo apt-get install docker-ce -y
 sudo systemctl start docker
 sudo systemctl enable docker
-
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
 
 # Enable SNAP
 sudo rm /etc/apt/preferences.d/nosnap.pref
@@ -53,6 +55,7 @@ sudo apt install snapd -y
 
 # Installing APT packages
 sudo apt install net-tools -y
+sudo apt install mosquitto -y
 sudo apt install samba samba-common-bin -y
 sudo apt install git -y
 sudo apt install curl -y
