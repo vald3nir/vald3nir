@@ -21,7 +21,6 @@ sudo apt install git -y
 sudo apt install curl -y
 sudo apt install fish -y
 sudo apt install build-essential -y
-sudo apt install python3-pip -y
 sudo apt install arduino -y
 sudo apt install vlc clementine -y
 sudo apt install gparted -y
@@ -29,6 +28,11 @@ sudo apt install sqlitebrowser -y
 # sudo apt install gimp -y
 # sudo apt install filezilla -y
 # sudo apt install hollywood -y
+
+# Install spotify-dl
+sudo apt install python3-pip -y
+sudo apt install ffmpeg -y
+sudo pip3 install spotify-dl
 
 # Setup SSH
 sudo apt-get install openssh-server -y
