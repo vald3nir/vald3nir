@@ -11,12 +11,17 @@
 
     git rebase --abort
 
+## Git submodules
+
     git submodule add [url] [folder]
     git submodule update --init --recursive
     git submodule deinit --all
     git submodule update --rebase
     git submodule status --recursive
     git submodule sync
+
+    git submodule deinit -f path/to/submodule
+    git rm -f path/to/submodule
 
 ## Examples
 

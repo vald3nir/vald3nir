@@ -1,35 +1,27 @@
 [submodule "Smart-Energy-Project"]
 	path = Smart-Energy-Project
 	url = https://github.com/vald3nir/Smart-Energy-Project.git
-	ignore = all
 	branch = main
 [submodule "Vald3flix-Projects/Vald3flix-Core"]
 	path = Vald3flix-Projects/Vald3flix-Core
 	url = https://github.com/vald3nir/Vald3flix-Core.git
-	ignore = all
 	branch = main
 [submodule "Vald3flix-Projects/Vald3flix-Movie-Streaming"]
 	path = Vald3flix-Projects/Vald3flix-Movie-Streaming
 	url = https://github.com/vald3nir/Vald3flix-Movie-Streaming.git
-	ignore = all
 	branch = main
 [submodule "Arduino"]
 	path = Arduino
 	url = https://github.com/vald3nir/Arduino-Projects.git
-	ignore = all
 [submodule "Android"]
 	path = Android
 	url = https://github.com/vald3nir/Android-Projects.git
-	ignore = all
 [submodule "C"]
 	path = C
 	url = https://github.com/vald3nir/C-CPP-Projects.git
-	ignore = all
 [submodule "Python"]
 	path = Python
 	url = https://github.com/vald3nir/Python-Projects.git
-	ignore = all
 [submodule "Flutter"]
 	path = Flutter
 	url = https://github.com/vald3nir/Flutter-Project.git
-	ignore = all
