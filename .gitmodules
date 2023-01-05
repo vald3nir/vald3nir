@@ -25,3 +25,6 @@
 [submodule "Flutter"]
 	path = Flutter
 	url = https://github.com/vald3nir/Flutter-Project.git
+[submodule "Scripts-Utils"]
+	path = Scripts-Utils
+	url = https://github.com/vald3nir/Scripts-Utils.git

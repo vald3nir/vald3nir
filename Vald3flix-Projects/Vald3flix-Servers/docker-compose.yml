@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+
+  Jellyfin-Server:
+    container_name: jellyfin
+    image: jellyfin/jellyfin:latest
+    privileged: true
+    ports:
+      - 8096:8096
+    volumes:
+      - "C:/src/jellyfin/config:/config"
+      - "C:/src/jellyfin/cache:/cache"
+      - "D:/Filmes:/media/Filmes"
+      - "D:/Séries:/media/Séries"
+
+  Plex-Server:
+    container_name: plex
+    image: lscr.io/linuxserver/plex:latest
+    privileged: true
+    ports:
+      - 32400:32400
+    volumes:
+      - "C:/src/plex/config:/config"
+      - "D:/Filmes:/media/Filmes"
+      - "D:/Séries:/media/Séries"
